@@ -1,0 +1,34 @@
+name: meok-fmcsa-hours-of-service-mcp
+description: 'US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-fmcsa-hours-of-service-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_property_carrying_hos
+  description: check property carrying hos
+- name: check_passenger_carrying_hos
+  description: check passenger carrying hos
+- name: check_short_haul_exemption
+  description: check short haul exemption
+- name: check_eld_mandate_compliance
+  description: check eld mandate compliance
+- name: check_eld_supplier_registered
+  description: check eld supplier registered
+- name: forecast_csa_score
+  description: forecast csa score
+- name: audit_iep_inspection
+  description: audit iep inspection
+- name: prepare_safety_audit_pack
+  description: prepare safety audit pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

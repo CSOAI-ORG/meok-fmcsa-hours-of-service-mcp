@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-fmcsa-hours-of-service-mcp"
+version = "1.0.0"
+description = "US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49 CFR Part 395 / Part 385 callable compliance toolkit for property + passenger carriers. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "fmcsa", "hours-of-service", "hos", "eld", "csa", "49-cfr-395", "trucking", "us-compliance", "ata", "new-entrant-safety-audit", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-fmcsa-hours-of-service-mcp"
+
+[project.scripts]
+meok-fmcsa-hours-of-service-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

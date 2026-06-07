@@ -1,0 +1,95 @@
+{
+  "name": "meok-fmcsa-hours-of-service-mcp",
+  "description": "US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49",
+  "url": "https://proofof.ai/scorecard/meok-fmcsa-hours-of-service-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_property_carrying_hos",
+      "name": "Check Property Carrying Hos",
+      "description": "check_property_carrying_hos via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_passenger_carrying_hos",
+      "name": "Check Passenger Carrying Hos",
+      "description": "check_passenger_carrying_hos via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_short_haul_exemption",
+      "name": "Check Short Haul Exemption",
+      "description": "check_short_haul_exemption via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_eld_mandate_compliance",
+      "name": "Check Eld Mandate Compliance",
+      "description": "check_eld_mandate_compliance via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_eld_supplier_registered",
+      "name": "Check Eld Supplier Registered",
+      "description": "check_eld_supplier_registered via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "forecast_csa_score",
+      "name": "Forecast Csa Score",
+      "description": "forecast_csa_score via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "audit_iep_inspection",
+      "name": "Audit Iep Inspection",
+      "description": "audit_iep_inspection via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_safety_audit_pack",
+      "name": "Prepare Safety Audit Pack",
+      "description": "prepare_safety_audit_pack via meok-fmcsa-hours-of-service-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

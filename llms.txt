@@ -1,0 +1,24 @@
+# meok-fmcsa-hours-of-service-mcp
+
+> US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49 CFR Part 395 / Part 385 callable compliance toolkit for property + passenger carriers. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_property_carrying_hos
+- check_passenger_carrying_hos
+- check_short_haul_exemption
+- check_eld_mandate_compliance
+- check_eld_supplier_registered
+- forecast_csa_score
+- audit_iep_inspection
+- prepare_safety_audit_pack
+
+## Install
+```
+pip install meok-fmcsa-hours-of-service-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-fmcsa-hours-of-service-mcp/
+- Docs: https://meok.ai

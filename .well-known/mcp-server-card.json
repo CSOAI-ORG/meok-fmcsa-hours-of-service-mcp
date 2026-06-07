@@ -1,0 +1,37 @@
+{
+  "name": "meok-fmcsa-hours-of-service-mcp",
+  "title": "Meok Fmcsa Hours Of Service Mcp",
+  "description": "US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49 CFR Part 395 / Part 385 callable compliance toolkit for property + passenger carriers. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_property_carrying_hos"
+    },
+    {
+      "name": "check_passenger_carrying_hos"
+    },
+    {
+      "name": "check_short_haul_exemption"
+    },
+    {
+      "name": "check_eld_mandate_compliance"
+    },
+    {
+      "name": "check_eld_supplier_registered"
+    },
+    {
+      "name": "forecast_csa_score"
+    },
+    {
+      "name": "audit_iep_inspection"
+    },
+    {
+      "name": "prepare_safety_audit_pack"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-fmcsa-hours-of-service-mcp",
+    "description": "US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-fmcsa-hours-of-service-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_property_carrying_hos",
+      "check_passenger_carrying_hos",
+      "check_short_haul_exemption",
+      "check_eld_mandate_compliance",
+      "check_eld_supplier_registered",
+      "forecast_csa_score",
+      "audit_iep_inspection",
+      "prepare_safety_audit_pack"
+    ]
+  }
+}
