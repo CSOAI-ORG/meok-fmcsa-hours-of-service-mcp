@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-fmcsa-hours-of-service-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-fmcsa-hours-of-service-mcp"
+      ]
+    }
+  }
+}
