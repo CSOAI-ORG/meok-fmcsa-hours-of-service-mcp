@@ -1,0 +1,168 @@
+{
+  "name": "Meok Fmcsa Hours Of Service Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-fmcsa-hours-of-service-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "US FMCSA Hours of Service + CSA score forecast + ELD mandate + New Entrant Safety Audit prep. 49 CFR Part 395 / Part 385 callable compliance toolkit for property + passenger carriers. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_property_carrying_hos",
+      "name": "Check Property Carrying Hos",
+      "description": "Check Property Carrying Hos — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_passenger_carrying_hos",
+      "name": "Check Passenger Carrying Hos",
+      "description": "Check Passenger Carrying Hos — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_short_haul_exemption",
+      "name": "Check Short Haul Exemption",
+      "description": "Check Short Haul Exemption — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_eld_mandate_compliance",
+      "name": "Check Eld Mandate Compliance",
+      "description": "Check Eld Mandate Compliance — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_eld_supplier_registered",
+      "name": "Check Eld Supplier Registered",
+      "description": "Check Eld Supplier Registered — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "forecast_csa_score",
+      "name": "Forecast Csa Score",
+      "description": "Forecast Csa Score — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_iep_inspection",
+      "name": "Audit Iep Inspection",
+      "description": "Audit Iep Inspection — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_safety_audit_pack",
+      "name": "Prepare Safety Audit Pack",
+      "description": "Prepare Safety Audit Pack — a tool of the meok-fmcsa-hours-of-service-mcp MCP.",
+      "tags": [
+        "compliance",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-fmcsa-hours-of-service-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
