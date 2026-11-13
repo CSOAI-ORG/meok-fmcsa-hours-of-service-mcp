@@ -49,14 +49,11 @@ pip install meok-fmcsa-hours-of-service-mcp
 | `audit_iep_inspection` | ISS score + roadside inspection intervention review |
 | `prepare_safety_audit_pack` | New Entrant Safety Audit checklist (12-18 months) |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — $39/mo
-- **Pro** — $99/mo (multi-driver)
-- **Fleet** — $599/mo (50+ trucks, audit-export)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → $99/mo](https://www.csoai.org/checkout)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
