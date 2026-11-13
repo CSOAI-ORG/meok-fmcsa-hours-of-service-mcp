@@ -42,11 +42,10 @@ TOOLS (8)
 WHY YOU PAY
 -----------
 One avoided Compliance Review = $30k-$200k saved (insurance + fines + lost
-authority). $39/mo Starter is a rounding error vs the existential risk.
 
 PRICING
 -------
-Free MIT self-host · $39/mo Starter · $99/mo Pro · $599/mo Fleet.
+No subscriptions and no tiers: pay per delivered job. See https://meok.ai/pricing. Source is MIT, free to self-host.
 
 REGULATORY BASIS
 ----------------
@@ -827,10 +826,10 @@ if __name__ == "__main__":
     main()
 
 
-# ── MEOK monetization layer (Stripe upgrade · PAYG · pricing) ──────────
-# Free tier is zero-config. Upgrade to Pro (unlimited) or pay-as-you-go per call.
+# ── MEOK pricing pointer (pay per delivered job; no subscriptions) ──────────
+# No tiers. Jobs are quoted individually at https://meok.ai/pricing.
 import os as _meok_os
-MEOK_STRIPE_UPGRADE = "https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j"  # Pro (unlimited)
+MEOK_STRIPE_UPGRADE = "https://meok.ai/pricing"  # Pro (unlimited)
 MEOK_PAYG_KEY = _meok_os.environ.get("MEOK_PAYG_KEY", "")  # set to enable PAYG (x402 / ~GBP0.05 per call)
 MEOK_PRICING = "https://meok.ai/pricing"
 
